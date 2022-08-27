@@ -10,7 +10,6 @@ imgs.map((item)=> {
   button.addEventListener('click', () => {
       appImgs.innerHTML = ''
       const buttons = document.querySelectorAll('button')
-      console.log(buttons)
       for(let i = 0; i < buttons.length; i++){
         buttons[i].className = ''
       }
